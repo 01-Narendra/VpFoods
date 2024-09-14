@@ -1,4 +1,5 @@
 import React from 'react'
+import client from '../assets/client.jpeg'
 
 const Client = () => {
   return (
@@ -11,7 +12,7 @@ const Client = () => {
                 <p className='md:text-2xl text-xl w-[75%] text-white font-khand'>❝ Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, placeat! Voluptates sit tempora aliquam deleniti odit incidunt exercitationem tempore ipsum consectetur, distinctio, temporibus unde at numquam, alias praesentium non doloribus. ❞</p>
             </div>
             <div>
-                <img src="src\assets\client.jpeg" className='rounded-3xl' />
+                <img src={client} className='rounded-3xl' />
             </div>
         </div>
     </div>

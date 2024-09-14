@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import client from '../assets/client.jpeg'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
 
                 <img className='h-[100px] w-[100px] rounded-full cursor-pointer filter hidden md:block spin-slow' 
                 style={{ filter: 'drop-shadow(0px 0px 15px white)' }}
-                src="src/assets/client.jpeg" alt="" />
+                src={client} alt="" />
                 <h1 style={{ textShadow: '0px 0px 20px white' }} className='lg:hidden text-white text-2xl font-bold font-alex'>Grandma Treat</h1>
 
                 {/* Right items */}
@@ -65,7 +66,7 @@ const Navbar = () => {
                     <div>
                         <img className='h-[120px] spin-slow w-[120px] rounded-full filter'
                         style={{ filter: 'drop-shadow(0px 0px 12px white)' }}
-                        src="src/assets/client.jpeg" alt="" />
+                        src={client} alt="" />
                     </div>
                 </div>
             )}
