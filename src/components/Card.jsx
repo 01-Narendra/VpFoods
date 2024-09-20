@@ -13,8 +13,8 @@ const ProductCard = ({ image, name, price }) => {
                 
                 {/* Hover Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white text-center">
-                <h2 className="text-xl font-bold">{name}</h2>
-                <p className="text-lg mt-2">${price}</p>
+                <h2 className="text-xl font-bold font-khand">{name}</h2>
+                <p className="text-lg mt-2 font-khand">&#8377; {price}</p>
                 </div>
             </div>
             </div>
