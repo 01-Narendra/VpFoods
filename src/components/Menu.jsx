@@ -60,7 +60,8 @@ return (
     <div>
         <div id='menu' className='flex justify-center items-center flex-col md:gap-5 gap-2 md:mt-10'>
             <div className='md:h-[150px] h-[80px] w-[1px] bg-white'></div>
-            <p className='text-[30px] md:text-7xl font-bold font-sevillana text-white'>Menu</p>
+            <p className='filter text-[30px] md:text-7xl font-bold font-sevillana text-white'
+            style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>Menu</p>
         </div>
         <div className="p-6 md:mt-10 mt-5 flex flex-wrap gap-12 justify-center">
             {products.map((product, index) => (

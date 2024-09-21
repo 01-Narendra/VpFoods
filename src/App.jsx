@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[#c9a998] ">
+      <div className="bg-[#adbbda] ">
         <Navbar />
         <Header />
         <Menu />

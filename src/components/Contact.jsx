@@ -3,10 +3,11 @@ import React from 'react';
 const Contact = () => {
     return (
         <div id='contact'>
-            <p className='text-center font-bold md:text-7xl text-3xl text-white font-khand md:mb-5 md:mt-14 mt-5'>Contact Us</p>
+            <p className='filter text-center font-bold md:text-7xl text-3xl text-white font-khand md:mb-5 md:mt-14 mt-5'
+            style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>Contact Us</p>
         <div className="flex flex-wrap justify-around items-center py-12 px-4">
             <div className='font-alex text-white md:text-6xl text-4xl text-wrap md:w-[30%] w-[70%]'>Contact Me When you want to taste something delecious</div>
-            <div className="max-w-lg w-full p-8 rounded-lg shadow-xl shadow-rose-200">
+            <div className="max-w-lg w-full p-8 rounded-lg shadow-xl shadow-[#8697c4]">
 
                 <form>
                     {/* Name Field */}

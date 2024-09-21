@@ -5,12 +5,14 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-gray-800 p-8">
+        <nav className="bg-gradient-to-tr from-[#16a085] to-[#f4d037] p-5">
             <div className="flex justify-between items-center">
                 {/* Left items */}
                 <div className="ml-40 hidden sm:flex space-x-40">
-                    <a href="#" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand">Home</a>
-                    <a href="#about" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand">About</a>
+                    <a href="#" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand"
+                    style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>Home</a>
+                    <a href="#about" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand"
+                    style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>About</a>
                 </div>
 
                 <img className='h-[100px] w-[100px] rounded-full cursor-pointer filter hidden md:block spin-slow' 
@@ -20,8 +22,10 @@ const Navbar = () => {
 
                 {/* Right items */}
                 <div className="mr-40 hidden sm:flex space-x-40">
-                    <a href="#menu" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand">Menu</a>
-                    <a href="#contact" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand">Contact</a>
+                    <a href="#menu" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand"
+                    style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>Menu</a>
+                    <a href="#contact" className="text-white text-[30px] font-bold hover:text-orange-600 transition-all duration-400 font-khand"
+                    style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>Contact</a>
                 </div>
                 
 
@@ -32,7 +36,10 @@ const Navbar = () => {
                         type="button"
                         className="text-white"
                     >
-                        <svg
+                        {
+                            isOpen ?
+                            <p>❌</p> :
+                            <svg
                             className="w-6 h-6"
                             fill="none"
                             stroke="currentColor"
@@ -46,6 +53,7 @@ const Navbar = () => {
                                 d="M4 6h16M4 12h16M4 18h16"
                             ></path>
                         </svg>
+                        }
                     </button>
                 </div>
             </div>
