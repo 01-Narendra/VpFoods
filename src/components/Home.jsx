@@ -25,9 +25,9 @@ const Header = () => {
     };
 
     const images = [
-        'https://images.unsplash.com/photo-1464454709131-ffd692591ee5?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        'https://img.freepik.com/premium-photo/black-pasta-with-vegetables-black-plate-top-view-black-background-free-copy-space_187166-60568.jpg?size=626&ext=jpg&ga=GA1.1.1704184701.1662977645&semt=ais_hybrid',
         'https://www.foodiesfeed.com/wp-content/uploads/2023/05/exotic-spices.jpg',
+        'https://img.freepik.com/premium-photo/black-pasta-with-vegetables-black-plate-top-view-black-background-free-copy-space_187166-60568.jpg?size=626&ext=jpg&ga=GA1.1.1704184701.1662977645&semt=ais_hybrid',
+        'https://images.unsplash.com/photo-1464454709131-ffd692591ee5?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     ];
 
     return (

@@ -66,3 +66,40 @@
     animation: water 5s infinite ease-in-out;
   }
 
+
+
+  
+  .star {
+    position: absolute;
+    top: -20px;
+    color: #ffff;
+    animation: animate 5s linear forwards;
+  }
+  
+  .star::before {
+    content: "ωєℓ¢σмє 💐"; /* FontAwesome star icon */
+    text-shadow: 0 0 5px #fff, 0 0 20px #fff;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+    }
+  
+    80% {
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translateY(100vh) rotate(0deg);
+      opacity: 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .star {
+      font-size: 5px;
+    }
+  }
+  

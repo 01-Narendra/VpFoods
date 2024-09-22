@@ -4,12 +4,14 @@ import Footer from "./components/Footer"
 import Header from "./components/Home"
 import Menu from "./components/Menu"
 import Navbar from "./components/Navbar"
+import FallingStars from "./components/Welcome"
 
 
 function App() {
 
   return (
     <>
+      <FallingStars />
       <div className="bg-[#adbbda] ">
         <Navbar />
         <Header />
