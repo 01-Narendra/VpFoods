@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-gradient-to-t from-[#16a085] to-[#f4d037] p-5">
+        <nav className="bg-gradient-to-t from-[#16a085] to-[#f4d037] p-2">
             <div className="flex justify-between items-center">
                 {/* Left items */}
                 <div className="ml-40 hidden sm:flex space-x-40">
