@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <FallingStars />
-      <div className="bg-[#adbbda] ">
+      <div className="bg-[#e4a94a] ">
         <Navbar />
         <Header />
         <Menu />

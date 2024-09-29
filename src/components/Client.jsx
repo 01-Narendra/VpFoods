@@ -1,5 +1,6 @@
 import React from 'react'
-import client from '../assets/client.jpeg'
+import logo from '../assets/logo.png'
+import truck from '../assets/Grandmas Treat Food Truck.jpg'
 
 const Client = () => {
   return (
@@ -13,9 +14,9 @@ const Client = () => {
                 <p className='md:text-2xl text-xl md:w-[75%] cursor-pointer text-white hover:scale-110 font-khand p-4 border-2 border-transparent rounded-lg hover:border-gray-500 hover:bg-gray-500 hover:shadow-xl transition duration-300 ease-in-out'>❝ I’m a huge fan of street food, and the aloo tikki chaat here has blown me away! The combination of crispy tikki, tangy chutneys, and cool yogurt creates an explosion of flavors. It’s the perfect balance of spicy, sweet, and savory. I can’t wait to order it again! ❞<br />  -<b>Rahul K</b> ⭐⭐⭐⭐⭐</p>
             </div>
             <div>
-                <img src={client} className='rounded-3xl block md:hidden' />
-                <img src="https://img.freepik.com/premium-vector/vector-teenagers-laughing-together-flat-design-style_995281-42802.jpg?size=626&ext=jpg&ga=GA1.1.1704184701.1662977645&semt=ais_hybrid" className='hidden md:block rounded-3xl' />
+                <img src={logo} className='rounded-3xl block md:hidden' style={{ filter: 'drop-shadow(0px 0px 20px white)' }}/>
                 <img src="https://img.freepik.com/premium-vector/vector-teenagers-laughing-together-flat-design-style_995281-42802.jpg?size=626&ext=jpg&ga=GA1.1.1704184701.1662977645&semt=ais_hybrid" className='hidden md:block rounded-3xl mt-10' />
+                <img src={truck} className='hidden md:block rounded-3xl mt-10' width={300} />
             </div>
         </div>
     </div>

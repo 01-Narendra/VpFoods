@@ -3,7 +3,7 @@ import React from 'react';
 const ProductCard = ({ image, name, price }) => {
     return (
         <div className="flex shakeCard justify-center items-center p-4">
-            <div className="cursor-pointer relative p-4 w-64 h-64 rounded-full water-effect shadow-lg hover:shadow-gray-500 hover:shadow-xl transform hover:scale-105 transition-transform duration-300 overflow-hidden">
+            <div className="cursor-pointer relative p-4 w-64 h-64 rounded-full water-effect shadow-lg hover:shadow-white hover:shadow-xl transform hover:scale-105 transition-transform duration-300 overflow-hidden">
                 {/* Image */}
                 <img
                 src={image}

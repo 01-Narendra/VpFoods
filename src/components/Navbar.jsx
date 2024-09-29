@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import client from '../assets/client.jpeg'
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-gradient-to-tr from-[#16a085] to-[#f4d037] p-5">
+        <nav className="bg-gradient-to-t from-[#16a085] to-[#f4d037] p-5">
             <div className="flex justify-between items-center">
                 {/* Left items */}
                 <div className="ml-40 hidden sm:flex space-x-40">
@@ -15,9 +15,9 @@ const Navbar = () => {
                     style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>About</a>
                 </div>
 
-                <img className='h-[100px] w-[100px] rounded-full cursor-pointer filter hidden md:block spin-slow' 
-                style={{ filter: 'drop-shadow(0px 0px 15px white)' }}
-                src={client} alt="" />
+                <img className='h-[130px] w-[130px] rounded-full cursor-pointer filter hidden md:block spin-slow' 
+                style={{ filter: 'drop-shadow(0px 0px 20px white)' }}
+                src={logo} alt="" />
                 <h1 style={{ textShadow: '0px 0px 20px white' }} className='lg:hidden text-white text-2xl font-bold font-alex'>Grandma Treat</h1>
 
                 {/* Right items */}
@@ -73,8 +73,8 @@ const Navbar = () => {
                     </div>
                     <div>
                         <img className='h-[120px] spin-slow w-[120px] rounded-full filter'
-                        style={{ filter: 'drop-shadow(0px 0px 12px white)' }}
-                        src={client} alt="" />
+                        style={{ filter: 'drop-shadow(10px 10px 20px white)' }}
+                        src={logo} alt="" />
                     </div>
                 </div>
             )}

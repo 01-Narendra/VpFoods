@@ -1,4 +1,5 @@
 import React from 'react';
+import truck from '../assets/moving-truck.png'
 
 const Contact = () => {
     return (
@@ -7,7 +8,7 @@ const Contact = () => {
             style={{ filter: 'drop-shadow(0px 10px 10px black)' }}>Contact Us</p>
         <div className="flex flex-wrap justify-around items-center py-12 px-4">
             <div className='font-alex text-white md:text-6xl text-4xl text-wrap md:w-[30%] w-[70%]'>Contact Me When you want to taste something delecious</div>
-            <div className="max-w-lg w-full p-8 rounded-lg shadow-xl shadow-[#8697c4]">
+            <div className="max-w-lg w-full p-8 rounded-lg shadow-xl shadow-[#efbc69]">
 
                 <form>
                     {/* Name Field */}
@@ -61,6 +62,12 @@ const Contact = () => {
                 </form>
             </div>
         </div>
+        <img
+            src={truck}
+            alt="Moving truck"
+            className="moveTrucks mix-blend-multiply"
+            style={{ width: "100px", height: "auto" }} // Adjust size of bike as needed
+        />
         </div>
     );
 };
