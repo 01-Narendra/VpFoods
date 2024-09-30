@@ -5,7 +5,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="bg-gradient-to-t from-[#16a085] to-[#f4d037] p-2">
+        <nav className="bg-gradient-to-t from-[#16a085] to-[#f4d037] md:p-2 p-3">
             <div className="flex justify-between items-center">
                 {/* Left items */}
                 <div className="ml-40 hidden sm:flex space-x-40">
@@ -40,7 +40,7 @@ const Navbar = () => {
                             isOpen ?
                             <p>❌</p> :
                             <svg
-                            className="w-6 h-6"
+                            className="w-5 h-5"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24"

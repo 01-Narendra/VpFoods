@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      <FallingStars />
-      <div className="bg-[#e4a94a] ">
+      {/* <FallingStars /> */}
+      <div className="bg-[#e4a94a]">
         <Navbar />
         <Header />
         <Menu />

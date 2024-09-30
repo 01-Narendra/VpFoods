@@ -16,47 +16,47 @@ const Menu = () => {
         {
             image: gobhi,
             name: 'Gobhi Paratha',
-            price: '25',
+            price: '45',
         },
         {
             image: aloo,
             name: 'Aloo Paratha',
-            price: '20',
+            price: '40',
         },
         {
             image: methi,
             name: 'Methi Paratha',
-            price: '30',
+            price: '50',
         },
         {
             image: paneer,
             name: 'Paneer Paratha',
-            price: '35',
+            price: '50',
         },
         {
             image: chana,
             name: 'Chana Paratha',
-            price: '10',
+            price: '40',
         },
         {
             image: matar,
             name: 'Matar Paratha',
-            price: '10',
+            price: '40',
         },
         {
             image: onion,
             name: 'Onion Paratha',
-            price: '20',
+            price: '45',
         },
         {
             image: palak,
             name: 'Palak Paratha',
-            price: '7',
+            price: '45',
         },
         {
             image: mooli,
             name: 'Mooli Paratha',
-            price: '15',
+            price: '50',
         },
     ];
 
