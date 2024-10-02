@@ -35,7 +35,7 @@ const Header = () => {
             <Slider {...settings} className="h-auto">
                 {images.map((src, index) => (
                     <div key={index}>
-                        <p className='font-alex md:text-9xl text-white absolute md:ml-[4%] md:mt-[2%] ml-[2%] mt-[4%] text-5xl'>taste the experience</p>
+                        <p className='font-alex md:text-9xl text-white absolute md:ml-[4%] md:mt-[2%] ml-[1%] mt-[4%] text-5xl'>taste the experience</p>
                         <img
                             src={src}
                             alt={`Slide ${index + 1}`}

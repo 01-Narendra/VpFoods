@@ -1,6 +1,7 @@
 import Client from "./components/Client"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import Gallery from "./components/Gallery"
 import Header from "./components/Home"
 import Menu from "./components/Menu"
 import Navbar from "./components/Navbar"
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Menu />
         <Client />
+        <Gallery />
         <Contact />
         <Footer />
       </div>
